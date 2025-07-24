@@ -137,7 +137,7 @@ flowchart LR
     linkStyle 11 stroke:#ff7f00
     linkStyle 12 stroke:#ff7f00
     linkStyle 13 stroke:#ff7f00
-    linkStyle 14 stroke:#ff7f00
+    linkStyle 14 stroke:#00af41
 
     linkStyle 15 stroke:#f00000
     linkStyle 16 stroke:#ff7f00
