@@ -100,7 +100,7 @@ flowchart LR
     OP1 -->|60%| OC2
     OP2 -->|65%| OC2
     OP2 -->|70%| OC3
-    OP3 -->|55%| OC4
+    OP3 -->|30%| OC4
     OP3 -->|50%| OC5
 
     %% Layer 1 Outcomes to Layer 2 Outcomes
@@ -112,9 +112,9 @@ flowchart LR
 
     %% Layer 2 Outcomes to End Goal
     OC6 -->|80%| EG
-    OC7 -->|75%| EG
+    OC7 -->|35%| EG
     OC8 -->|60%| EG
-    OC9 -->|50%| EG
+    OC9 -->|90%| EG
 
     %% End Goal to End Mission
     EG -->|90%| EM
@@ -128,18 +128,21 @@ flowchart LR
     linkStyle 4 stroke:#ff7f00
     linkStyle 5 stroke:#ff7f00
 
-    linkStyle 6 stroke:#ff7f00
-    linkStyle 7 stroke:#00af41
+    linkStyle 6 stroke:#00af41
+    linkStyle 7 stroke:#ff0000
     linkStyle 8 stroke:#ff7f00
-    linkStyle 9 stroke:#d9002d
-    linkStyle 10 stroke:#d9002d
+    linkStyle 9 stroke:#ff7f00
+    linkStyle 10 stroke:#00af41
 
-    linkStyle 11 stroke:#00af41
-    linkStyle 12 stroke:#00af41
+    linkStyle 11 stroke:#ff7f00
+    linkStyle 12 stroke:#ff7f00
     linkStyle 13 stroke:#ff7f00
     linkStyle 14 stroke:#ff7f00
 
-    linkStyle 15 stroke:#00af41
+    linkStyle 15 stroke:#f00000
+    linkStyle 16 stroke:#ff7f00
+    linkStyle 17 stroke:#00af41
+    linkStyle 18 stroke:#00af41
 ```
 
 📍 Paste at [**mermaid.live**](https://mermaid.live) to view and edit.
